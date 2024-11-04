@@ -53,6 +53,7 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 - The highest revenue was generated in November 2023.
 - 50% of the customers used the Basic subscription package, making it the most popular package.
 - Average Revenue Per User is 1,999.
+
 A detailed explanation on the insights gotten at the end of the analysis will be given in the [DOCUMENTATION](#documentation) section.
  
 ### GUIDE
