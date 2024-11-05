@@ -5,7 +5,19 @@ This repository contains a comprehensive analysis of customer data for a subscri
 
 [OVERVIEW](#overview)
 
-[GUIDE](#guide)
+[DATA](#data)
+
+[SEGMENTATION MODEL](#segmentation-model)
+
+- **Demographic Segmentation**
+
+- **Behavioural Segmentation**
+
+- **RFM Analysis**
+
+[CUSTOMER PROFILE](#customer-profile)
+
+[INSIGHTS AND RECOMMENDATION](#insights-and-recommendation)
 
 [EXCEL FILES](#excel-files)
 
@@ -15,21 +27,28 @@ This repository contains a comprehensive analysis of customer data for a subscri
 
 [DOCUMENTATION](#documentation)
 
+- **Data Dictionary**
+
+[MAINTAINERS](#maintainers)
+
+
 ### OVERVIEW
 ---
 
-The dataset contained 75,000 records and was analyzed using Excel, SQL and Power BI. 
+This repository contains the data, code and insights for my customer segmentation project. The goal of this project is to identity and understand the distinct customers groups based on demographics, behaviour and revenue. The insight gotten will enable data driven decisions for improving sales and generating productive product strategies. The dataset contained 75,000 records and was analyzed using Excel, SQL and Power BI. 
 
-#### KEY FEATURES
+#### KEY FEATURES AND SCOPE
 
-- Demographic Segment(Region by Subscription type)
-- Revenue Tiers (Low, Medium, High)
-- Mean and Standard deviation of Revenue
+- Customer data from January 2022 to August 2024.
+- Demographic Segmentation(Region by Subscription type).
+- Revenue Tiers (Low, Medium, High).
+- Behavioural Segmentation
 - Subscription Trend
 
-#### DATA SET 
+### DATA  
+---
 
-The dataset was given by the incubator hub and contained 75,000 customer subscription record from the 2022 to 2024.
+The dataset was given by the incubator hub and contained 75,000 customer subscription record from the 2022 to 2024. 
 
 #### METHODOLOGY
 
@@ -45,7 +64,33 @@ At the end of my excel analysis, I exported my main dataset to another workbook 
 
 I went further to import my data into my **POWER BI DESKTOP** work space and went ahead to transform my data. At the transform data page, I checked my column quality which was 100%, column distribution which showed that I had no empty rows or columns and column profile which gave a summary of my columns. I went further to add two conditional columns for Revenue Tier Sort, Cancelled Sort. I created measures for **Churn rate, Revenue, Count of canceled(True), Customer Life Value**. At the end of my analysis, I created an interactive dashboard of 3 pages. 
 
-#### INSIGHTS AND RECOMMENDATION
+#### TOOLS NEEDED
+
+- Microsoft Excel [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
+    
+- SQL - Structured Querry Language for querrying data [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+
+- Power BI [Install](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+
+### SEGMENTATION MODEL
+---
+
+ - **Demographic Segmentation**
+The customers where segmented based on their regions and then analyzed. There are four regions used in this analysis.
+
+- **EAST REGION**: This is the top performing region by revenue. There was no record of subscription cancellation in this region which showed that the customers where satisfied with the service in this region. The subscription type for all the customers in this region was Basic. This shows that the basic subscription package is the best performing package.
+
+- **SOUTH REGION**: This is the top 2 region by revenue generated. This region has a churn rate of **60%**. 100% of the customers used the premium subscription package. In the second quarter of 2023, revenue dropped by 1.4% but by the fourth quarter it had increased by 1.1%.
+
+- **WEST REGION**: Average Revenue Per User (ARPU) is 2,003 which is even higher than that of the customers in the East (1,998). Although the average customer spent more on his subscription, revenue was low because the churn rate was also **60%**. The high ARPU can also be explained because all the customers opted for the Premium subscription type. From the revenue trend, we can see a steady increase in revenue throughout the quarters.
+
+- **NORTH REGION**: This is the least performing region. ARPU is 1,994 and the most popular package is the basic package.
+
+ - **Behavioral Segmentation**
+ - 
+  
+### INSIGHTS AND RECOMMENDATION
+---
 
 **Key Insights**
 - There are no active subscription as of 31st August 2024.
@@ -54,18 +99,6 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 - 50% of the customers used the Basic subscription package, making it the most popular package.
 - Average Revenue Per User is 1,999.
 
-A detailed explanation on the insights gotten at the end of the analysis will be given in the [DOCUMENTATION](#documentation) section.
- 
-### GUIDE
----
-#### TOOLS NEEDED
-
-- Microsoft Excel [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
-    
-- SQL - Structured Querry Language for querrying data [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-
-- Power BI [Install](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
-  
 
 ### EXCEL FILES
 ---
