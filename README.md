@@ -75,45 +75,104 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
  - **Demographic Segmentation**
 The customers where segmented based on their regions and then analyzed. There are four regions used in this analysis.
 
-      **EAST REGION**: This is the top performing region by revenue. There was no record of subscription cancellation in this region which showed that the customers where satisfied with the service in this region. The subscription type for all the customers in this region was Basic. This shows that the basic subscription package is the best performing package.
+      **EAST REGION**
+     - Segment Size: 50% of total customer size
 
-      **SOUTH REGION**: This is the top 2 region by revenue generated. This region has a churn rate of **60%**. 100% of the customers used the premium subscription package. In the second quarter of 2023, revenue dropped by 1.4% but by the fourth quarter it had increased by 1.1%.
+     - Preferred Subscription type: Basic
+  
+     - Churn Rate: 0%
+  
+     - Average Revenue Per User:  ₦1,998
+  
+     - Revenue Generated:  ₦16,958,763 (25.1%)
+  
+     - Summary: This is the top performing region by revenue. 
+  
 
-      **WEST REGION**: Average Revenue Per User (ARPU) is 2,003 which is even higher than that of the customers in the East (1,998). Although the average customer spent more on his subscription, revenue was low because the churn rate was also **60%**. The high ARPU can also be explained because all the customers opted for the Premium subscription type. From the revenue trend, we can see a steady increase in revenue throughout the quarters.
+      **SOUTH REGION**
 
-      **NORTH REGION**: This is the least performing region. ARPU is 1,994 and the most popular package is the basic package.
+     - Segment Size: 25% of total customer size
 
+     - Preferred Subscription type: Premium
+  
+     - Churn Rate: 59.96%
+  
+     - Average Revenue Per User:  ₦2,001
+  
+     - Revenue Generated:  ₦16,899,064 (25.0%)
+  
+     - Summary: This is the top 2 region by revenue generated. In the second quarter of 2023, revenue dropped by 1.4% but by the fourth quarter it had increased by 1.1%.
+
+      **WEST REGION**
+     
+     - Segment Size: 25% of total customer size
+
+     - Preferred Subscription type: Standard
+  
+     - Churn Rate: 59.90%
+  
+     - Average Revenue Per User:  ₦2,003
+  
+     - Revenue Generated:  ₦16,864,376 (25.0%)
+  
+     - Summary: Although the average customer spent more on his subscription, revenue was low because the churn rate was also **60%**. From the revenue trend, we can see a steady increase in revenue throughout the quarters.
+
+      **NORTH REGION**
+  
+     - Segment Size: 25% of total customer size
+
+     - Preferred Subscription type: Basic
+  
+     - Churn Rate: 60.09%
+  
+     - Average Revenue Per User:  ₦1,994
+  
+     - Revenue Generated:  ₦16,817,972 (24.9%)
+  
+     - Summary:  This is the least performing region by revenue. It has the highest churn rate.
+
+     
  - **Behavioral Segmentation**
 A revenue tier was created was created in other to analyze customer behaviour.
 
 **LOW - VALUE CUSTOMERS**
-- Revenue range: 0 - 1,500
+  - Revenue range:  ₦0 -  ₦1,500
 
-- Characteristics: ARPU is 1,248; 
+  - Characteristics: ARPU is  ₦1,248; 
 
-- Segment Size: 25% of the total customers.
+  - Segment Size: 25% of the total customers.
 
-- Revenue Contribution: 16% of total Revenue
+  - Revenue Contribution: 16% of total Revenue
 
 **MEDIUM - VALUE CUSTOMERS**:
 
-- Revenue range: 1,501 - 2,500
+  - Revenue range:  ₦1,501 -  ₦2,500
 
-- Characteristics: ARPU is 2,001;
+  - Characteristics: ARPU is  ₦2,001;
 
-- Segment Size: 50% of the total customers.
+  - Segment Size: 50% of the total customers.
 
-- Revenue Contribution: 50% of total Revenue
+  - Revenue Contribution: 50% of total Revenue
   
 **HIGH - VALUE CUSTOMERS**
 
-- Revenue range: Above 2,500
+  - Revenue range: Above  ₦2,500
 
-- Characteristics: ARPU is 2,751; 
+  - Characteristics: ARPU is  ₦2,751; 
 
-- Segment Size: 25% of the total customers.
+  - Segment Size: 25% of the total customers.
 
-- Revenue Contribution: 34% of total Revenue
+  - Revenue Contribution: 34% of total Revenue
+
+### REVENUE TREND
+---
+
+The revenue trend analysis for the dataset revealed a mixed icture, with both increases and decreases in revenue across the different quarters. November 2023 was a record-breaking month for revenue, with the highest earings for the three years. The medium Value Customers drove significant revenue growth, indicating the need for affordable subscription packages. 
+
+- **Revenue Highlight**
+  - Total Revenue:  ₦67,540,175
+ 
+  - Average Revenue Per User:  ₦1,999
   
 ### INSIGHTS AND RECOMMENDATION
 ---
@@ -123,7 +182,7 @@ A revenue tier was created was created in other to analyze customer behaviour.
 - Customer retention rate is **55%**.
 - The highest revenue was generated in November 2023.
 - 50% of the customers used the Basic subscription package, making it the most popular package.
-- Average Revenue Per User is 1,999.
+- Average Revenue Per User is  ₦1,999.
 
 
 ### EXCEL FILES
