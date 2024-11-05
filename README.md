@@ -73,7 +73,7 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
 ---
 
  - **Demographic Segmentation**
-The customers where segmented based on their regions and then analyzed. There are four regions used in this analysis.
+The customers were segmented based on their regions and then analyzed. There are four regions used in this analysis.
 
       **EAST REGION**
      - Segment Size: 50% of total customer size
@@ -167,12 +167,14 @@ A revenue tier was created was created in other to analyze customer behaviour.
 ### REVENUE TREND
 ---
 
-The revenue trend analysis for the dataset revealed a mixed icture, with both increases and decreases in revenue across the different quarters. November 2023 was a record-breaking month for revenue, with the highest earings for the three years. The medium Value Customers drove significant revenue growth, indicating the need for affordable subscription packages. 
+The revenue trend analysis for the dataset revealed a mixed icture, with both increases and decreases in revenue across the different quarters (SD = 19%). November 2023 was a record-breaking month for revenue, with the highest earings for the three years. The medium Value Customers drove significant revenue growth, indicating the need for affordable subscription packages. 
 
 - **Revenue Highlight**
   - Total Revenue:  ₦67,540,175
  
   - Average Revenue Per User:  ₦1,999
+ 
+  - Standard Deviation: 579.28 (19% of the mean)
   
 ### INSIGHTS AND RECOMMENDATION
 ---
@@ -183,6 +185,7 @@ The revenue trend analysis for the dataset revealed a mixed icture, with both in
 - The highest revenue was generated in November 2023.
 - 50% of the customers used the Basic subscription package, making it the most popular package.
 - Average Revenue Per User is  ₦1,999.
+- The standard deviation showed that revenue forcasting may be challenging due to volatility.
 
 
 ### EXCEL FILES
@@ -298,21 +301,19 @@ My dataset contained 8 columns originally, during the process of analysis, four 
 
  Various measure was created during the course of the analysis. They include:
  
-- **Average Revenue Per User**
+- **Average Revenue Per User**: It was created with the **AVERAGE** function to get the average of the revenue column.
 
-- **Canceled (True)**
+- **Canceled (True)**: The **SUM and IF** function was utilized to track the total number of canceled subscription.
 
-- **Churn Rate**
+- **Churn Rate**: This measures the percentage of customers who cancelled their subscription. It was gotten by dividing the Canceled (True) measure by the Total customer measure and multiplying by 100.
 
-- **Customer Lifetime Value**
+- **Customer Retention Rate**: Measure the percentage of customers who did not cancel their subscription.
 
-- **Customer Retention Rate**
+- **Revenue Lost To Churn**: The sum of revenue for customers who cancelled their subscription.
 
-- **Revenue Lost To Churn**
+- **Total Customers**: Count of all customers.
 
-- **Total Customers**
-
-- **Total Revenue**
+- **Total Revenue**: Sum of revenue column.
 
 
   ### MAINTAINER:
