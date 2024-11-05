@@ -255,7 +255,7 @@ GROUP BY Canceled
 I created an interactive 3 pages dashboard.
 
 **PAGE 1 - OVERVIEW**
-<img width="670" alt="Overview - Page 1CD" src="https://github.com/user-attachments/assets/c1bb1dfc-46cf-44bd-80d0-4037945488bb">
+<img width="595" alt="Overview - Page 1CD" src="https://github.com/user-attachments/assets/77e40f04-5bf3-490e-8fb2-3b1dc801f9a0">
 
 
 **PAGE 2 - REVENUE TREND**
@@ -297,6 +297,7 @@ My dataset contained 8 columns originally, during the process of analysis, four 
 - **Canceled Sort**: A conditional column created in the BI workspace.
 
  Various measure was created during the course of the analysis. They include:
+ 
 - **Average Revenue Per User**
 
 - **Canceled (True)**
