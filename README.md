@@ -47,7 +47,7 @@ This repository contains the data, code and insights for my customer segmentatio
 
 The dataset was given by the incubator hub and contained 75,000 customer subscription record from the 2022 to 2024. 
 
-#### METHODOLOGY
+**METHODOLOGY**
 
 The dataset was given in an excel workbook alongside another dataset, I transferred to a new workbook and then I checked for duplicates. 
 
@@ -61,7 +61,7 @@ At the end of my excel analysis, I exported my main dataset to another workbook 
 
 I went further to import my data into my **POWER BI DESKTOP** work space and went ahead to transform my data. At the transform data page, I checked my column quality which was 100%, column distribution which showed that I had no empty rows or columns and column profile which gave a summary of my columns. I went further to add two conditional columns for Revenue Tier Sort, Cancelled Sort. I created measures for **Churn rate, Revenue, Count of canceled(True), Customer Life Value**. At the end of my analysis, I created an interactive dashboard of 3 pages. 
 
-#### TOOLS NEEDED
+**TOOLS NEEDED**
 
 - Microsoft Excel [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
     
