@@ -27,7 +27,7 @@ This repository contains a comprehensive analysis of customer data for a subscri
 
 - **Data Dictionary**
 
-[MAINTAINERS](#maintainers)
+[MAINTAINER](#maintainer)
 
 
 ### OVERVIEW
@@ -39,7 +39,6 @@ This repository contains the data, code and insights for my customer segmentatio
 
 - Customer data from January 2022 to August 2024.
 - Demographic Segmentation(Region by Subscription type).
-- Revenue Tiers (Low, Medium, High).
 - Behavioural Segmentation
 - Subscription Trend
 
@@ -256,4 +255,7 @@ My dataset contained 8 columns originally, during the process of analysis, four 
 - **Total Revenue**
 
 
-  #### INSIGHTS AND RECOMMENDATION
+  ### MAINTAINER:
+
+  - POLYCARP, CHIDINMA CHINEMEREM
+    
