@@ -13,9 +13,7 @@ This repository contains a comprehensive analysis of customer data for a subscri
 
 - **Behavioural Segmentation**
 
-- **RFM Analysis**
-
-[CUSTOMER PROFILE](#customer-profile)
+[REVENUE TREND](#revenue-trend)
 
 [INSIGHTS AND RECOMMENDATION](#insights-and-recommendation)
 
@@ -78,16 +76,45 @@ I went further to import my data into my **POWER BI DESKTOP** work space and wen
  - **Demographic Segmentation**
 The customers where segmented based on their regions and then analyzed. There are four regions used in this analysis.
 
-- **EAST REGION**: This is the top performing region by revenue. There was no record of subscription cancellation in this region which showed that the customers where satisfied with the service in this region. The subscription type for all the customers in this region was Basic. This shows that the basic subscription package is the best performing package.
+      **EAST REGION**: This is the top performing region by revenue. There was no record of subscription cancellation in this region which showed that the customers where satisfied with the service in this region. The subscription type for all the customers in this region was Basic. This shows that the basic subscription package is the best performing package.
 
-- **SOUTH REGION**: This is the top 2 region by revenue generated. This region has a churn rate of **60%**. 100% of the customers used the premium subscription package. In the second quarter of 2023, revenue dropped by 1.4% but by the fourth quarter it had increased by 1.1%.
+      **SOUTH REGION**: This is the top 2 region by revenue generated. This region has a churn rate of **60%**. 100% of the customers used the premium subscription package. In the second quarter of 2023, revenue dropped by 1.4% but by the fourth quarter it had increased by 1.1%.
 
-- **WEST REGION**: Average Revenue Per User (ARPU) is 2,003 which is even higher than that of the customers in the East (1,998). Although the average customer spent more on his subscription, revenue was low because the churn rate was also **60%**. The high ARPU can also be explained because all the customers opted for the Premium subscription type. From the revenue trend, we can see a steady increase in revenue throughout the quarters.
+      **WEST REGION**: Average Revenue Per User (ARPU) is 2,003 which is even higher than that of the customers in the East (1,998). Although the average customer spent more on his subscription, revenue was low because the churn rate was also **60%**. The high ARPU can also be explained because all the customers opted for the Premium subscription type. From the revenue trend, we can see a steady increase in revenue throughout the quarters.
 
-- **NORTH REGION**: This is the least performing region. ARPU is 1,994 and the most popular package is the basic package.
+      **NORTH REGION**: This is the least performing region. ARPU is 1,994 and the most popular package is the basic package.
 
  - **Behavioral Segmentation**
- - 
+A revenue tier was created was created in other to analyze customer behaviour.
+
+**LOW - VALUE CUSTOMERS**
+- Revenue range: 0 - 1,500
+
+- Characteristics: ARPU is 1,248; 
+
+- Segment Size: 25% of the total customers.
+
+- Revenue Contribution: 16% of total Revenue
+
+**MEDIUM - VALUE CUSTOMERS**:
+
+- Revenue range: 1,501 - 2,500
+
+- Characteristics: ARPU is 2,001;
+
+- Segment Size: 50% of the total customers.
+
+- Revenue Contribution: 50% of total Revenue
+  
+**HIGH - VALUE CUSTOMERS**
+
+- Revenue range: Above 2,500
+
+- Characteristics: ARPU is 2,751; 
+
+- Segment Size: 25% of the total customers.
+
+- Revenue Contribution: 34% of total Revenue
   
 ### INSIGHTS AND RECOMMENDATION
 ---
